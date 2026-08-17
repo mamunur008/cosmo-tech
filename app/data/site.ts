@@ -1,0 +1,23 @@
+export interface Service { number:string; title:string; slug:string; summary:string; items:string[] }
+export interface Leader { name:string; role:string; image:string; bio:string }
+export const navItems=[{label:'Home',to:'/'},{label:'About',to:'/about'},{label:'Services',to:'/services'},{label:'Technology',to:'/technology'},{label:'Leadership',to:'/leadership'},{label:'Contact',to:'/contact'}]
+export const services:Service[]=[
+ {number:'01',title:'IT & Digital Solutions',slug:'it-digital',summary:'Secure, scalable business platforms that improve operations, customer experience and management visibility.',items:['Custom enterprise software','Business process automation','ERP-integrated analytics','API and system integration','Cloud-native modernization','Identity, security and DevOps']},
+ {number:'02',title:'Interior Design & Implementation',slug:'interior-design',summary:'Functional, attractive and purpose-led environments delivered from initial planning through final handover.',items:['Corporate and institutional interiors','Space planning and layouts','2D drawings and 3D visualization','Material, lighting and furniture guidance','Fit-out implementation','Site coordination and quality monitoring']},
+ {number:'03',title:'Consultancy',slug:'consultancy',summary:'Practical advice that connects business objectives with clear decisions, realistic roadmaps and reduced delivery risk.',items:['Business process review','Digital transformation strategy','Technology architecture roadmaps','Requirements and solution planning','Vendor and technology evaluation','Project feasibility and governance']},
+ {number:'04',title:'Contracting & Turnkey Delivery',slug:'contracting',summary:'Coordinated people, materials, schedules and quality through a single accountable point of responsibility.',items:['Turnkey interior fit-out','Civil and finishing works','Electrical and lighting coordination','Procurement and supplier management','Site supervision and progress control','Testing, snag resolution and handover']}
+]
+export const projects=[
+ {title:'Wood',eyebrow:'Enterprise document processing',description:'A seven-day working pilot that grew into an OCR, metadata extraction, indexing, secure search and retrieval solution handling 1M+ documents.'},
+ {title:'Phoenix',eyebrow:'Metadata-driven application platform',description:'A reusable platform for configurable databases, forms, workflows, validation, permissions, reports and business modules.'},
+ {title:'GoMembership / JustGo',eyebrow:'International membership management',description:'A multi-organization platform supporting 200+ organizations, evolved from .NET and jQuery into a modern React and REST architecture.'},
+ {title:'SalesTracing',eyebrow:'ERP-integrated analytics',description:'Operational and ERP data transformed into executive dashboards, performance indicators, reports and decision-support insight.'},
+ {title:'Cloud-Native Platform',eyebrow:'Enterprise microservices',description:'Event-driven .NET services using Saga, gRPC, SignalR, Redis, Docker, Kubernetes, APISIX, Keycloak and CI/CD.'}
+]
+export const leaders:Leader[]=[
+ {name:'Anamul Haque Sarker',role:'Chairman',image:'/assets/anamul-haque-sarker.png',bio:'Education entrepreneur, curriculum specialist and institutional leader. Founder, Chairman and Head of Academics of Paramount International School Dhaka, providing strategic guidance in governance, institutional development and long-term vision.'},
+ {name:'Mohammad Amiruzzaman',role:'Chief Executive Officer',image:'/assets/mohammad-amiruzzaman.jpeg',bio:'Interior design, multimedia and business-development professional experienced in design management, marketing, client engagement and implementation, with Malaysian qualifications across Interior Design, Computer Science and Multimedia.'},
+ {name:'Md. Mamunur Rashid',role:'Managing Director',image:'/assets/md-mamunur-rashid.jpg',bio:'Technical Lead, Solution Architect and Engineering Manager with 24+ years of experience in enterprise applications, distributed systems, product engineering and international technology delivery.'},
+ {name:'Md. Shahaful Islam',role:'Executive Director',image:'/assets/md-shahaful-islam.jpeg',bio:'People and administration professional with seven years as Executive Director (HR & Admin) at Paramount International School Dhaka, supporting organizational coordination, administration and operational governance.'}
+]
+export const stats=[['2020','Business commencement'],['24+','Years of technology leadership'],['200+','Organizations supported through leadership experience'],['4','Integrated service practices']]
